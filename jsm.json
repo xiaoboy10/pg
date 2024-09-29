@@ -47,36 +47,6 @@
 				"ratio": 1.5
 			}
 		},
-		{
-      "key": "Wexokconfig",
-      "name": "🐮影视专用┃配置中心🐮",
-      "type": 3,
-   "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1725896177022/wex.txt;md5;4091845e12fefff20a94f77a64438ad0",
-      "api": "csp_Wexokconfig",
-      "searchable": 0,
-      "changeable": 0,
-      "indexs": 0
-    },
-	{
-            "key": "Wexdiyemby001",
-            "name": "FY┃4K",
-            "type": 3,
-            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1725896177022/wex.txt;md5;4091845e12fefff20a94f77a64438ad0",
-            "api": "csp_Wexdiyemby",
-   "searchable": 1,
-            "changeable": 1,
-   "ext": {"embynumber":1}
-        },
-	{
-            "key": "Wexdiyemby002",
-            "name": "桃┃4K",
-            "type": 3,
-            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1725896177022/wex.txt;md5;4091845e12fefff20a94f77a64438ad0",
-            "api": "csp_Wexdiyemby",
-   "searchable": 1,
-            "changeable": 1,
-   "ext": {"embynumber":2}
-        },
 		{"key":"Local","name":"本地","type":3,"api":"csp_Local"},
 		{"key":"PushShare","name":"我的资源分享","type":3, "api":"csp_PushShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/pushshare.txt$$$db$$$1",
 			"style": {
@@ -217,8 +187,8 @@
 			"timeout":60,
 			"ext": "./lib/tokenm.json$$$https://www.yjys01.com/$$$proxy$$$1"
 		},
-		{"key":"TGYunPanLocal","name":"TG搜索Local|网盘搜索","type":3,"api":"csp_TGYunPanLocal","timeout":60, "ext":"./lib/tokenm.json$$$https://t.me/$$$hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe$$$proxy$$$1"},
-		{"key":"TGYunPan","name":"TG搜索|网盘搜索","type":3,"api":"csp_TGYunPan","timeout":60, "ext":"./lib/tokenm.json$$$http://127.0.0.1:9999/$$$hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe$$$noproxy$$$1"},
+		{"key":"TGYunPanLocal","name":"TG搜索Local|网盘搜索","type":3,"api":"csp_TGYunPanLocal","timeout":60, "ext":"./lib/tokenm.json$$$https://t.me/$$$oneonefivewpfx,hao115,guaguale115,Channel_Shares_115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,vip115hot,yunpanshare,shareAliyun,ikiviyyp,alyp_1,quanziyuanshe$$$proxy$$$1"},
+		{"key":"TGYunPan","name":"TG搜索|网盘搜索","type":3,"api":"csp_TGYunPan","timeout":60, "ext":"./lib/tokenm.json$$$http://127.0.0.1:10199/$$$alypzyhzq|1000,Mbox115|1000,shares_115|1000,Quark_Share_Channel|1000,Aliyundrive_Share_Channel|1000,wanwansubchat|1000$$$noproxy$$$1"},
 		{"key":"YunPan","name":"云盘资源|网盘","type":3,"api":"csp_YunPan","timeout":60, "ext":"./lib/tokenm.json$$$null$$$proxy$$$1"},
 		{"key":"YingSo","name":"影搜|网盘搜索","type":3,"api":"csp_YingSo","timeout":60, "ext":"./lib/tokenm.json"},
 		{"key":"混合盘","name":"混合盘|网盘搜索","type":3,"api":"csp_HunHePan","timeout":60, "ext":"./lib/tokenm.json",
@@ -664,8 +634,8 @@
 			{
 				"name": "zouming.ipv6",
 				"type": 0,
-				"url": "http://127.0.0.1:10079/p/0/proxy/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
-				"ua": "AptvPlayer",
+				"url": "http://127.0.0.1:10079/p/0/proxy/http://ww.zouming.com/ipv6.txt",
+				"ua": "okhttp/3.15",
 				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
 				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
 			},
