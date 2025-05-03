@@ -12,6 +12,29 @@
 			"ext": "./lib/tokenm.json$$$./lib/douban.json"
 		},
 		{
+			"key":"Youtube",
+			"name":"Youtube",
+			"type":3,
+			"api": "csp_Youtube",
+			"searchable": 1,
+			"quickSearch": 0,
+			"changeable": 0,
+			"timeout": 120,
+			"ext":{
+				"token":"./lib/tokenm.json",
+				"json":"./lib/youtube.json",
+				"type":"直播#新闻#剧集#电影#综艺#纪录片#音乐#体育#动物#风光#放松#4K#HDR#movie#music#documentary#bbc documentary#national geographic documentary",
+				"keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
+				"codecs":"",
+				"proxy":"proxy",
+				"danmu":true
+			},
+			"style": {
+				"type": "rect",
+				"ratio": 1.77
+			}
+		},
+		{
 			"key": "网盘配置",
 			"name": "网盘及彈幕配置",
 			"type": 3,
@@ -120,9 +143,9 @@
 				"cookie":""
 			}
 		},
-{
+        {
             "key": "Emby",
-            "name": "Emby｜4K",
+            "name": "⭐️Emby｜4K",
             "type": 3,
             "api": "csp_Wexemby",
             "searchable": 1,
@@ -132,7 +155,6 @@
             },
             "jar": "./lib/wex.jar"
         },
-		{"key": "py_emby", "name": "🍏 MisakaF┃Emby","type": 3, "api":"./lib/emby_proxy.py", "searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"server": "https://emby.oceancloud.asia:443","username":"小小","password":"At4rsuvP","thread": 0,"proxy":""},"changeable": 1},
 		{"key":"TGYunPanLocal","name":"TG频道搜索","type":3,"api":"csp_TGYunPanLocal","timeout":120, 
 			"ext":{
 				"token":"./lib/tokenm.json",
@@ -171,7 +193,7 @@
 		{"key":"Wogg","name":"玩偶哥哥|网盘","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$http://wogg.888484.xyz/$$$noproxy$$$1$$$./lib/wogg.json$$$WOGG"},
 		{"key":"yydsys","name":"玩你老哥|网盘","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://tv.yydsys.top/$$$proxy$$$1$$$./lib/wogg.json$$$WNLG"},
 		{"key":"蜡笔网盘","name":"蜡笔|网盘","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.goimg.asia/$$$noproxy$$$1$$$./lib/wogg.json$$$LABI"},
-		{"key":"Mogg","name":"木偶哥哥|网盘","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$http://123.666291.xyz/$$$proxy$$$1$$$./lib/wogg.json$$$MOGG"},
+		{"key":"Mogg","name":"木偶哥哥|网盘","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$http://123.666291.xyz/$$$noproxy$$$1$$$./lib/wogg.json$$$MOGG"},
 		{"key":"DAWO","name":"大玩偶|网盘","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$http://149.88.87.18:6688/$$$noproxy$$$1$$$./lib/wogg.json$$$DAWO"},
 		{"key":"BAIJIA","name":"百家|网盘","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$http://cj.jiexi.news/$$$noproxy$$$1$$$./lib/wogg.json$$$BAIJIA"},
 		{"key":"QINGYING","name":"清影|网盘","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://revohd.com/$$$noproxy$$$1$$$./lib/wogg.json$$$QINGYING"},
@@ -268,31 +290,17 @@
 			}
 		},
 		{"key":"YunPanOne","name":"云盘One|网盘搜索","type":3,"api":"csp_YunPanOne","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$null$$$proxy$$$1"},
-		{"key":"UP云搜","name":"阿里|UP云搜","type":3,"api":"csp_UpYun","timeout":30, "ext":"./lib/tokenm.json",
-			"style": {
-				"type": "list",
-				"ratio": 1.1
-			}
-		}, 
-		{"key":"drpy_js_Alist","name":"网盘 | Alist[js]","type":3,"api":"./lib/alist.min.js","searchable":1,"filterable":1,"changeable":1,"ext":"./js/alist.json"},
-		{"key": "push_agent","name": "推送","type": 3,"api": "csp_Push","changeable":0, "timeout":30, "ext":"./lib/tokenm.json"},
 		{
-			"key": "應用商店",
-			"name": "應用商店",
+			"key": "新6V",
+			"name": "新6V|网盘",
 			"type": 3,
-			"api": "csp_Market",
-			"searchable": 0,
-			"changeable": 0,
-			"ext": "https://fm.t4tv.hz.cz/json/market.json"
+			"api": "csp_Xb6v",
+			"searchable": 1,
+			"changeable": 1,
+			"timeout": 60,
+			"ext": "./lib/tokenm.json$$$https://www.66ss.org$$$null$$$1"
 		},
-		{
-			"key": "直播转点播",
-			"name": "🐼️┃电视┃直播",
-			"type": 3,
-			"searchable": 0,
-			"api": "./lib/live2vod.js",
-			"ext": "./lib/feimaolive.json"
-		}
+		{"key": "push_agent","name": "推送","type": 3,"api": "csp_Push","changeable":0, "timeout":30, "ext":"./lib/tokenm.json"}
 	],
 		"lives":[
 			{
@@ -332,6 +340,14 @@
 				}
 			},
 			{
+				"name": "PandaGo投屏直播接收记录",
+				"type": 0,
+				"url": "http://127.0.0.1:10079/dlnam3u/tv.m3u",
+				"ua": "okhttp/3.15.",
+				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+			},
+			{
 				"name": "BIPTV(IPV6)",
 				"type": 0,
 				"url": "./lib/biptv.txt",
@@ -343,6 +359,15 @@
 				"name": "FMM.m3u",
 				"type": 0,
 				"url": "http://127.0.0.1:10079/c/3600/proxy/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
+				
+				"ua": "okhttp/3.15",
+				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+			},
+			{
+				"name": "FMM.m3u.音质增强",
+				"type": 0,
+				"url": "http://127.0.0.1:10079/mp4/3600/proxy/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
 				
 				"ua": "okhttp/3.15",
 				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
@@ -427,9 +452,25 @@
 				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
 			},
 			{
+				"name": "肥羊B站直播.音质增强",
+				"type": 0,
+				"url": "http://127.0.0.1:10079/mp4/3600/null/http://127.0.0.1:35456/bililive.m3u",
+				"ua": "okhttp/3.15",
+				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+			},
+			{
 				"name": "肥羊虎牙一起看",
 				"type": 0,
 				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/huyayqk.m3u",
+				"ua": "okhttp/3.15",
+				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+			},
+			{
+				"name": "肥羊虎牙一起看.音质增强",
+				"type": 0,
+				"url": "http://127.0.0.1:10079/mp4/3600/null/http://127.0.0.1:35456/huyayqk.m3u",
 				"ua": "okhttp/3.15",
 				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
 				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
@@ -443,12 +484,104 @@
 				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
 			},
 			{
+				"name": "肥羊斗鱼一起看.音质增强",
+				"type": 0,
+				"url": "http://127.0.0.1:10079/mp4/3600/null/http://127.0.0.1:35456/douyuyqk.m3u",
+				"ua": "okhttp/3.15",
+				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+			},
+			{
 				"name": "肥羊YY轮播",
 				"type": 0,
 				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/yylunbo.m3u",
 				"ua": "okhttp/3.15",
 				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
 				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+			},
+			{
+				"name": "LiSha521.TV",
+				"type": 0,
+				"url": "http://lisha521.dynv6.net.fh4u.org/tv.txt",
+				"playerType": 1
+			},
+			{
+				"name": "LiSha521.TV.音质增强",
+				"type": 0,
+				"url": "http://127.0.0.1:10079/mp4/3600/null/http://lisha521.dynv6.net.fh4u.org/tv.txt",
+				"playerType": 1
+			},
+			{
+				"name": "LiSha521.IPTV",
+				"type": 0,
+				"url": "http://lisha521.dynv6.net.fh4u.org/iptv.txt",
+				"epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+				"logo": "https://epg.iill.top/logo/{name}.png",
+				"ua": "okhttp/3.15,AptvPlayer/1.4.0",
+				"timeout": 10,
+				"playerType": 2
+			},
+			{
+				"name": "LiSha521.IPTV.音质增强",
+				"type": 0,
+				"url": "http://127.0.0.1:10079/mp4/3600/null/http://lisha521.dynv6.net.fh4u.org/iptv.txt",
+				"epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+				"logo": "https://epg.iill.top/logo/{name}.png",
+				"ua": "okhttp/3.15,AptvPlayer/1.4.0",
+				"timeout": 10,
+				"playerType": 2
+			},
+			{
+				"name": "LiSha521.HLJ",
+				"type": 0,
+				"url": "http://lisha521.dynv6.net.fh4u.org/hlj.txt",
+				"ua": "okhttp/3.15",
+				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+			},
+			{
+				"name": "LiSha521.HLJ.音质增强",
+				"type": 0,
+				"url": "http://127.0.0.1:10079/mp4/3600/null/http://lisha521.dynv6.net.fh4u.org/hlj.txt",
+				"ua": "okhttp/3.15",
+				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+			},
+			{
+				"name": "LiSha521.LIVE",
+				"type": 0,
+				"url": "http://lisha521.dynv6.net.fh4u.org/live.txt",
+				"playerType": 1,
+				"ua": "okhttp/3.15",
+				"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+				"logo": "https://epg.112114.xyz/logo/{name}.png"
+			},
+			{
+				"name": "LiSha521.LIVE.音质增强",
+				"type": 0,
+				"url": "http://127.0.0.1:10079/mp4/3600/null/http://lisha521.dynv6.net.fh4u.org/live.txt",
+				"playerType": 1,
+				"ua": "okhttp/3.15",
+				"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+				"logo": "https://epg.112114.xyz/logo/{name}.png"
+			},
+			{
+				"name": "LiSha521.LIVE1",
+				"type": 0,
+				"url": "http://127.0.0.1:10079/c/3600/null/http://lisha521.dynv6.net.fh4u.org/live1.txt",
+				"playerType": 2,
+				"ua": "okhttp/3.15",
+				"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+				"logo": "https://epg.112114.xyz/logo/{name}.png"
+			},
+			{
+				"name": "GGGG",
+				"type": 0,
+				"url": "http://rihou.cc:555/gggg.nzk",
+				"playerType": 1,
+				"ua": "okhttp/3.15",
+				"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+				"logo": "https://epg.112114.eu.org/logo/{name}.png"
 			},
 			{
 				"name": "YTB直播",
@@ -583,7 +716,8 @@
 			"cache.ott.wasulive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
 			"cache.ott.fifalive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
 			"cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
-			"myg.mobaiemby.site=csgo.com"
+			"myg.mobaiemby.site=csgo.com",
+			"emby.oceancloud.asia=csgo.com"
 		],
 		"rules":[
 			{
