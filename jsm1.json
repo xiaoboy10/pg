@@ -11,6 +11,20 @@
 			"indexs":1,
 			"ext": "./lib/tokenm.json$$$./lib/douban.json"
 		},
+        {
+            "key": "影视配置",
+            "name": "影视｜配置",
+            "type": 3,
+            "api": "csp_Wexconfig",
+            "searchable": 0,
+            "changeable": 0,
+            "indexs": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "jar": "./lib/wex.jar"
+        },
 		{
 			"key":"Youtube",
 			"name":"Youtube",
@@ -47,22 +61,8 @@
 				"ratio": 1.5
 			}
 		},
-        {
-            "key": "影视配置",
-            "name": "影视｜配置",
-            "type": 3,
-            "api": "csp_Wexconfig",
-            "searchable": 0,
-            "changeable": 0,
-            "indexs": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "jar": "./lib/wex.jar"
-        },
 		{"key":"Local","name":"本地","type":3,"api":"csp_Local"},
-		{"key":"AList","name":"网盘|Alist[jar]","type":3,"api":"csp_AList","searchable":1,"filterable":1,"changeable":1,"ext":"./js/alistjar.json"},
+		{"key":"AList","name":"网盘|Alist[jar]","type":3,"api":"csp_AList","searchable":1,"filterable":1,"changeable":1,"timeout":60,"ext":"./js/alistjar.json"},
 		{"key":"PushShare","name":"我的资源分享","type":3, "api":"csp_PushShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/pushshare.txt$$$db$$$1",
 			"style": {
 				"type": "list",
@@ -130,19 +130,6 @@
 			}
 		},
 		{"key":"SambaShare","name":"Samba分享","type":3,"api":"csp_SambaShare","searchable":0,"quickSearch":0, "changeable":0, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/sambashare.txt"},
-		{
-			"key": "FirstAid",
-			"name": "🚑 急救知识 ",
-			"type": 3,
-			"api": "csp_FirstAid",
-			"searchable": 0,
-			"quickSearch": 0,
-			"changeable": 0,
-			"style": {
-				"type": "rect",
-				"ratio": 3.8
-			}
-		},
 				{
 			"key":"bili1",
 			"name":"演唱会",
@@ -222,7 +209,7 @@
 			"timeout": 60,
 			"ext": "./lib/tokenm.json$$$https://mihdr.top/$$$noproxy$$$1$$$./lib/wogg.json$$$ZHIZHEN"
 		},
-		{"key":"Hmxz","name":"海绵|网盘","type":3,"api":"csp_Hmxz","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.hmxz.org/$$$noproxy$$$1$$$./lib/hmxz.txt$$$HMXZ",
+		{"key":"Hmxz","name":"海绵|网盘","type":3,"api":"csp_Hmxz","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://haimian.eu.org/$$$noproxy$$$1$$$./lib/hmxz.txt$$$HMXZ",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
@@ -640,7 +627,6 @@
 			"cache.ott.fifalive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
 			"cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
 			"myg.mobaiemby.site=csgo.com",
-			"emby.oceancloud.asia=csgo.com"
 		],
 		"rules":[
 			{
