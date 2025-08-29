@@ -18,7 +18,7 @@
 				"keywords":"名称,片名,推荐",
 				"tgsearch_url":"http://127.0.0.1:10199",
 				"tgsearch_media_url":"http://127.0.0.1:10199",
-				"channellist":"tgsearchers,leoziyuan,ucpanpan,pan123pan,zyfb123,zyzhpd123,xx123pan,tianyi_pd2,tianyirigeng,tyypzhpd,cloudtianyi,kuakeclound,ydypzyfx,clouddriveresources,NewQuark,New_Sharing,alypzyhzq|1000,Mbox115|1000,shares_115|1000,wanwansubchat|1000",
+				"channellist":"tgsearchers3,leoziyuan,ucpanpan,pan123pan,zyfb123,zyzhpd123,xx123pan,tianyi_pd2,tianyirigeng,tyypzhpd,cloudtianyi,kuakeclound,ydypzyfx,clouddriveresources,NewQuark,New_Sharing,alypzyhzq|1000,Mbox115|1000,shares_115|1000,wanwansubchat|1000",
 				"proxy":"noproxy",
 				"douban":"./lib/douban.json",
 				"danmu":true
@@ -41,21 +41,6 @@
 				"ratio": 1.5
 			}
 		},
-        {
-            "key": "影视配置",
-            "name": "影视｜配置",
-            "type": 3,
-            "api": "csp_Wexconfig",
-            "searchable": 0,
-            "changeable": 0,
-            "indexs": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "jar": "./jars/wex.jar"
-        },
-		{"key":"Local","name":"本地","type":3,"api":"csp_Local"},
 		{
       "key": "百度趣盘",
       "name": "☁️度趣┃4K",
@@ -95,18 +80,37 @@
 				"cookie":""
 			}
 		},
-        {
-            "key": "Emby",
-            "name": "⭐️Emby｜4K",
-            "type": 3,
-            "api": "csp_Wexemby",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "embynumber":0
-            },
-            "jar": "./jars/wex.jar"
-        },
+	    {
+      "key": "我的夸克",
+      "name": "🗽我的┃夸克",
+      "type": 3,
+      "api": "csp_MyQuarkGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "indexs": 0,
+      "style": {
+        "type": "list"
+      },
+      "timeout": 30,
+      "jar": "./jars/ok.jar"
+    },
+    {
+      "key": "我的百度",
+      "name": "☘️我的┃百度",
+      "type": 3,
+      "api": "csp_MyBaiduGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "indexs": 0,
+      "style": {
+        "type": "list"
+      },
+      "timeout": 30,
+      "jar": "./jars/ok.jar"
+    },
+		{"key": "py_emby", "name": "🍏 存档┃Emby","type": 3, "api":"./lib/py_emby_new.py", "searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"server": "https://emby.zn.al:443","username":"xiao10","password":"fnfqp1234","thread": 0,"proxy":""},"changeable": 1},
 		{"key":"TGYunPanLocal","name":"TG频道搜索","type":3,"api":"csp_TGYunPanLocal","timeout":120, 
 			"ext":{
 				"token":"./lib/tokenm.json",
@@ -114,7 +118,7 @@
 				"keywords":"名称,片名,推荐",
 				"tgsearch_url":"http://127.0.0.1:10199",
 				"tgsearch_media_url":"http://127.0.0.1:10199",
-				"channellist":"tgsearchers,leoziyuan,ucpanpan,pan123pan,zyfb123,zyzhpd123,xx123pan,tianyi_pd2,tianyirigeng,tyypzhpd,cloudtianyi,kuakeclound,ydypzyfx,clouddriveresources,NewQuark,New_Sharing,oneonefivewpfx,hao115,guaguale115,Channel_Shares_115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,vip115hot,yunpanshare,shareAliyun,ikiviyyp,alyp_1,quanziyuanshe",
+				"channellist":"tgsearchers3,leoziyuan,ucpanpan,pan123pan,zyfb123,zyzhpd123,xx123pan,tianyi_pd2,tianyirigeng,tyypzhpd,cloudtianyi,kuakeclound,ydypzyfx,clouddriveresources,NewQuark,New_Sharing,oneonefivewpfx,hao115,guaguale115,Channel_Shares_115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,vip115hot,yunpanshare,shareAliyun,ikiviyyp,alyp_1,quanziyuanshe",
 				"proxy":"proxy",
 				"danmu":true
 			},
@@ -387,7 +391,7 @@
 				"name": "FeiYang牧场",
 				"type": 0,
 				"url": "http://sub.ottiptv.cc/iptv.m3u",
-				"ua": "okHttp/Mod-1.0.0",
+				"ua": "okHttp/Mod-1.1.0",
 				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date=DATE1SUB",
 				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
 				"catchup": {
@@ -682,7 +686,8 @@
 			"cache.ott.wasulive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
 			"cache.ott.fifalive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
 			"cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
-			"emby.zn.al=csgo.com"
+			"emby.zn.al=visa.com.hk",
+			"xn--3prx41a.xn--pss436eejf.xyz=13.215.184.24"
 		],
 		"rules":[
 			{
