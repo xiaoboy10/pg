@@ -25,6 +25,19 @@
 			}
 		},
 		{
+			"key": "网盘配置",
+			"name": "网盘及彈幕配置",
+			"type": 3,
+			"api": "csp_Config",
+			"searchable": 0,
+			"changeable": 0,
+			"ext":"./lib/tokenm.json",
+			"style": {
+				"type": "rect",
+				"ratio": 1.5
+			}
+		},
+		{
       "key": "百度趣盘",
       "name": "☁️度趣┃4K",
       "type": 3,
@@ -69,7 +82,7 @@
             "name": "📚少儿┃教育",
 			"type":3,
 			"api": "csp_Bili",
-			"searchable": 1,
+			"searchable": 0,
 			"quickSearch": 0,
 			"changeable": 0,
 			"ext":{
@@ -82,7 +95,7 @@
 			"name": "📚小学┃课堂",
 			"type":3,
 			"api": "csp_Bili",
-			"searchable": 1,
+			"searchable": 0,
 			"quickSearch": 0,
 			"changeable": 0,
 			"ext":{
@@ -97,7 +110,7 @@
 				"keywords":"名称,片名,推荐",
 				"tgsearch_url":"http://127.0.0.1:10199",
 				"tgsearch_media_url":"http://127.0.0.1:10199",
-				"channellist":"yunpan189,tianyirigeng,cloudtianyi,tyysypzypd,txtyzy,kuakeclound,tyypzhpd,tgsearchers3",
+				"channellist":"tgsearchers3,leoziyuan,peccxinpd,yydf_hzl,vip115hot,clouddriveresources,q66share,yggpan,xiangxiunbb,oscardianying,dianying4k,wfysfx02,quarkfree,ucwpzy,ucquark,mcph860,mcph608,xunleibl,taoxgzy,yunpanx,kkxlzy,mcph086,dianyingshare,quark_movies,zyfx2022,alyp_1,quanziyuanshe,hdhhd21,guoman4k,duan_ju,q_dianying,q_dianshiju,sharepanfilms,mcph01,jdjdn1111,panjclub,baicaozy,yunpan189,tianyirigeng,cloudtianyi,tyysypzypd,txtyzy,kuakeclound,tyypzhpd,zyfb123,xx123pan,zyzhpd123,yingshifenxiang123,yp123pan,wp123zy115:oneonefivewpfx,lsp115,qukanmovie,channel_shares_115,share4115,ysxb48,aliyun:zaihuayun,sharealiyun,aliyun_4k_movies,aliyunys,qixingzhenren,yunpanuc,ucshare,ucwangpan",
 				"proxy":"proxy",
 				"danmu":true
 			},
