@@ -11,7 +11,7 @@ const ALIST_SITE = 'http://192.168.8.8:5344'; // AList 服务器地址
 const appConfig = {
     ver: 1,
     title: '云盘搜索 - TVBOX',
-    site: 'http://192.168.8.8:880',
+    site: 'http://192.168.8.8:4568/',
     tabs: [{ name: '全部', ext: { id: '' } }],
 };
 
