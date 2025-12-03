@@ -22,7 +22,7 @@ const MAX_SEARCH_RESULTS = 8; // 最大搜索结果数
 
 let sessionHeaders = {
     'User-Agent': UA,
-    'Referer': 'http://192.168.8.8:4568',
+    'Referer': 'http://192.168.8.8:4568/',
     'Authorization': AUTHORIZATION,
     'X-client': 'com.fongmi.android.tv'
 };
