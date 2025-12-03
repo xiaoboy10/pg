@@ -35,9 +35,7 @@ const DISK_TAGS = {
     'alipan.com': '阿里',
     'drive.uc.cn': 'UC',
     '123912.com': '123',
-    '123685.com': '123',
     '123684.com': '123',
-    'pan.baidu.com': '百度',
     'pan.quark.cn': '夸克',
     'cloud.189.cn': '天翼',
     'caiyun.139.com': '移动'
