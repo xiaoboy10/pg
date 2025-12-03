@@ -6,7 +6,7 @@ const CryptoJS = createCryptoJS();
 // 配置
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
 const TOKEN = 'fnfqp7758';
-const AUTHORIZATION = 'c22f6d56062b5599a934757cff2e24f7';
+const AUTHORIZATION = 'a421f8fc5ef64192ac986eff5d16182e';
 const ALIST_SITE = 'http://192.168.8.8:5344'; // AList 服务器地址
 const appConfig = {
     ver: 1,
@@ -23,7 +23,7 @@ const MAX_SEARCH_RESULTS = 8; // 最大搜索结果数
 let sessionHeaders = {
     'User-Agent': UA,
     'Referer': 'http://192.168.8.8:4568',
-    'Authorization': a421f8fc5ef64192ac986eff5d16182e,
+    'Authorization': AUTHORIZATION,
     'X-client': 'com.fongmi.android.tv'
 };
 
