@@ -7,7 +7,7 @@ const CryptoJS = createCryptoJS();
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
 const TOKEN = 'fnfqp7758';
 const AUTHORIZATION = 'a421f8fc5ef64192ac986eff5d16182e';
-const ALIST_SITE = 'http://192.168.8.8:5344'; // AList 服务器地址
+const ALIST_SITE = 'http://192.168.8.8:5345'; // AList 服务器地址
 const appConfig = {
     ver: 1,
     title: '云盘搜索 - TVBOX',
